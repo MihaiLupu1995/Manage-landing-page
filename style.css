@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 8rem;
+}
+
+.btn {
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+  padding: 1rem;
+}
+
+.sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10rem;
+}
+
+.sec2 {
+  display: grid;
+  align-self: center;
+  gap: 2rem;
+}
+
+.sec2 h1 {
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 20rem;
+}
+
+.sec2 p {
+  text-align: start;
+  width: 20rem;
+}
+
+.subtitle {
+  width: 30rem;
+}
+
+.track {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.advance {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.everything {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.sec3 {
+  display: flex;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 6.5rem;
+}
+
+.span {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: hsl(12, 88%, 59%);
+  width: 4rem;
+  height: 2rem;
+  color: white;
+}
+
+.manage {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 2rem;
+}
+
+.manage h1 {
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 20rem;
+}
+
+.manage p {
+  text-align: start;
+  width: 20rem;
+}
+
+.said {
+  margin-top: 3rem;
+}
+
+.said h1 {
+  text-align: center;
+}
+
+.comment {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img1 p {
+  text-align: center;
+}
+
+.team-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: orange;
+  padding: 3rem;
+  height: 2rem;
+  gap: 40rem;
+  margin-top: 3rem;
+}
+
+.simplify h1 {
+  width: 30rem;
+  color: white;
+}
+
+.btn2 {
+  margin: auto;
+  width: 6%;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: hsl(12, 88%, 59%);
+  cursor: pointer;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(233, 12%, 13%);
+  gap: 12rem;
+}
+
+.logo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.nav2 li a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+}
+
+.nav2 li a:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.nav3 li a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+}
+
+.nav3 li a:hover {
+  color: hsl(12, 88%, 59%);
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.input2 #email {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 2.7rem;
+}
+
+.btn3 {
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 1rem;
+  width: 5rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .team-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: orange;
+    padding: 3rem;
+    height: 2rem;
+    gap: 20rem;
+    margin-top: 3rem;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(233, 12%, 13%);
+    gap: 5rem;
+  }
+  .comment {
+    display: inline;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .img1 p {
+    width: 30rem;
+    text-align: center;
+  }
+  .third {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50rem;
+  }
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .manage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .manage h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 20rem; */
+  }
+
+  .manage p {
+    text-align: center;
+    /* width: 20rem; */
+  }
+
+  .sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 10rem;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .team-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: orange;
+    padding: 3rem;
+    height: 2rem;
+    gap: 10rem;
+    margin-top: 3rem;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(233, 12%, 13%);
+  }
+  .input {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .comment {
+    display: inline;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .img1 p {
+    width: 30rem;
+    text-align: center;
+  }
+  .third {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50rem;
+  }
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .manage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .manage h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 20rem; */
+  }
+
+  .manage p {
+    text-align: center;
+    /* width: 20rem; */
+  }
+
+  .sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 10rem;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .team-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: orange;
+    padding: 3rem;
+    height: 2rem;
+    margin-top: 3rem;
+  }
+  .simplify h1 {
+    width: 17rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .bottom {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    align-content: flex-start;
+    background-color: hsl(233, 12%, 13%);
+    grid-gap: 1rem;
+  }
+
+  .logo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav2 li a {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav2 li a:hover {
+    color: hsl(12, 88%, 59%);
+  }
+
+  .nav3 li a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav3 li a:hover {
+    color: hsl(12, 88%, 59%);
+  }
+
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-column: 1/-1;
+  }
+
+  .comment {
+    display: inline;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .img1 p {
+    width: 30rem;
+    text-align: center;
+  }
+  .third {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50rem;
+  }
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .manage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .manage h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 20rem; */
+  }
+
+  .manage p {
+    text-align: center;
+    /* width: 20rem; */
+  }
+
+  .sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 10rem;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+  }
+  li {
+    display: flex;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100vh;
+  }
+  .team-works {
+    display: grid;
+    justify-content: start;
+    background-color: hsl(12, 88%, 59%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0rem;
+    grid-column: -1/1;
+  }
+  .simplify {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .simplify h1 {
+    align-items: center;
+    width: 17rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .button-orange {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .btn {
+    border-radius: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: hsl(12, 88%, 59%);
+    cursor: pointer;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: flex-start;
+    background-color: hsl(233, 12%, 13%);
+  }
+
+  .logo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .nav2 li a {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav2 li a:hover {
+    color: hsl(12, 88%, 59%);
+  }
+
+  .nav3 li a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav3 li a:hover {
+    color: hsl(12, 88%, 59%);
+  }
+
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .comment {
+    display: inline;
+    justify-content: start;
+    margin-top: 3rem;
+  }
+  .img1 p {
+    width: 10rem;
+    text-align: center;
+  }
+  .third {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50rem;
+  }
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .manage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .manage h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 20rem; */
+  }
+
+  .manage p {
+    text-align: center;
+    /* width: 20rem; */
+  }
+
+  .sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 10rem;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+  }
+  li {
+    display: flex;
+    padding: 1rem;
+  }
+}
